@@ -195,3 +195,66 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media screen and (min-width:768px){
+
+  .site-nav{
+      position:fixed;
+      float: none;
+      width: 110px;
+      height: 100%;
+      z-index: 1;
+  }
+
+  .site-nav-list:nth-child(1){
+    position: relative;
+    top:100px;
+  }
+
+  .site-nav-item{
+    float:none;
+    position: relative;
+    width: 100%;
+  }
+
+  .site-logo{
+    z-index: 2;
+  }
+
+  main{
+    margin-left: 110px;
+  }
+
+  .movie-overview {
+    display: block;
+  }
+
+  .footer-nav{
+    display:inline-block;
+    float: left;
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 40px;
+    height: 100%;
+  }
+
+  .about{
+    display: inline-block;
+    float:right;
+    background-color: black;
+    width:50%;
+    height: 100%;
+  }
+
+  /*body{
+    background-color: black;
+  }*/
+
+  footer{
+    margin-left: 110px;
+    text-align: center;
+    background-color: black;
+  }
+
+}
